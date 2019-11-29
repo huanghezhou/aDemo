@@ -2,9 +2,9 @@
 
 - 说明：
 ```javascript
-$ node app.js
+$ node app.js // 运行项目，使用 http://127.0.0.1:3000/a， http://127.0.0.1:3000/img1， http://127.0.0.1:3000/html 查看变化
 ```
-+ 运行项目，使用 http://127.0.0.1:3000/a， http://127.0.0.1:3000/img1， http://127.0.0.1:3000/html 查看变化
+
 
 ## require两个特点
 - require有两个功能
