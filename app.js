@@ -1,3 +1,6 @@
+/* 
+  创建一台 http 服务器，根据用户的 url get 来请求不同的数据
+*/
 const http = require('http');
 const fs = require('fs');
 const A = require('./module/a');
