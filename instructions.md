@@ -20,3 +20,4 @@ $ node app.js // 运行项目，使用 http://127.0.0.1:3000/a， http://127.0.0
 res.setHeader('Content-type', 'text/plain; charset = utf-8')
 ```
 + Content-type 告诉浏览器，服务端响应的是普通文本，响应的数据类型为utf-8
+
