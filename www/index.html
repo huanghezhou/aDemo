@@ -7,6 +7,12 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>今天的天气很不好</h1>
+  <h1>{{name}}</h1>
+  <p><a href='{{about}}' onclick="toAboutFn()">关于</a></p>
+  <ul>
+    {{each arr}}
+    <li>{{$index}}___{{$value.name}}___{{$value.age}}___{{$value.work}}</li>
+    {{/each}}
+  </ul>
 </body>
 </html>

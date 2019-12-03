@@ -12,7 +12,7 @@ server.on('request', (req, res)=>{
   // res.end('Hello Apache')
 
   let url = req.url
-  let fileUrl = path.resolve(__dirname)+'/www'
+  let fileUrl = path.resolve(__dirname,'./www')
   let page = '/index.html'
   if (url !== '/') {
     page = url
